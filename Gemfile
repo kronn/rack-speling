@@ -1,4 +1,3 @@
-source :gemcutter
+source :rubygems
 
-# Specify your gem's dependencies in rack-speling.gemspec
 gemspec
