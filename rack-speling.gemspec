@@ -14,7 +14,7 @@ spec = Gem::Specification.new do |s|
   s.description = Rack::Speling::DESCRIPTION
 
   s.platform    = Gem::Platform::RUBY
-  s.required_rubygems_version = ">= 1.3.6"
+  s.required_rubygems_version = ">= 1.3.5"
 
   s.files        = `git ls-files`.split("\n")
   s.test_files   = `git ls-files test`.split("\n")
