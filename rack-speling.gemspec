@@ -1,5 +1,5 @@
 # vim:ft=ruby:fileencoding=utf-8
-require 'lib/rack-speling/version.rb'
+require 'lib/rack/speling/version.rb'
 
 spec = Gem::Specification.new do |s|
   s.name = 'rack-speling'
@@ -18,6 +18,5 @@ spec = Gem::Specification.new do |s|
 
   s.files        = `git ls-files`.split("\n")
   s.test_files   = `git ls-files test`.split("\n")
-  # s.executables  = `git ls-files bin`.split("\\n")
   s.require_path = 'lib'
 end
