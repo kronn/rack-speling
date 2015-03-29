@@ -9,7 +9,8 @@ module Rack # :nodoc:
     DESCRIPTION = <<-EOD
       Rack::Speling is a simple port of mod_speling to Rack.
 
-      Currently, only case-insensitivety is achieved.
+      Currently, only case-insensitivety is achieved. Custom
+      correction-code can be passed into the middleware.
     EOD
   end
 end
