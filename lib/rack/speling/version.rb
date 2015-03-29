@@ -2,7 +2,7 @@
 
 module Rack # :nodoc:
   module Speling
-    VERSION = "0.0.3"
+    VERSION = "0.1.0"
 
     SUMMARY = "Simple Speling corretor in Rack"
 
