@@ -48,5 +48,7 @@ class SpelingTest < Test::Unit::TestCase
     }).call(env)
     assert_equal 302, result[0]
     assert_equal 'http://example.com/newpath', result[1]['Location']
+    assert_kind_of Array, result[2]
+    assert_match(/^Moved: .*/, result[2].join("\n"))
   end
 end

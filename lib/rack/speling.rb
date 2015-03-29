@@ -34,7 +34,7 @@ module Rack
         'Location' => new_location
       })
 
-      [302, headers, "Moved: #{headers['Location']}"]
+      [302, headers, ["Moved: #{headers['Location']}"]]
     end
 
     def new_location
