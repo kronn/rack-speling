@@ -1,6 +1,5 @@
 # vim:ft=ruby:fileencoding=utf-8
 
-require 'redgreen' rescue LoadError
 require 'test/unit'
 
 base_path = ( File.expand_path(File.dirname(__FILE__)+'/..') )
