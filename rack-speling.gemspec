@@ -8,7 +8,8 @@ spec = Gem::Specification.new do |s|
   s.authors = ["Matthias Viehweger"]
   s.email = ['kronn@kronn.de']
   s.homepage = 'http://github.com/kronn/rack-speling'
-  s.rubyforge_project = '[none]' # to supress the warning
+
+  s.licenses = 'APL' # I think
 
   s.summary = Rack::Speling::SUMMARY
   s.description = Rack::Speling::DESCRIPTION
